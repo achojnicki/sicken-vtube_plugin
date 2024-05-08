@@ -1,7 +1,7 @@
 from pika import BlockingConnection, PlainCredentials, ConnectionParameters
 
-from log import Log
-from adisconfig import adisconfig
+from adistools.log import Log
+from adistools.adisconfig import adisconfig
 
 from message import Message
 from api_connection import API_Connection
